@@ -7,3 +7,6 @@ function combineUsers(...args) {
     }
 
 }
+
+// merge arrays
+const combineUsers = args.flat();
