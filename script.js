@@ -10,3 +10,13 @@ function combineUsers(...args) {
 
 // merge arrays
 const combineUsers = args.flat();
+
+// get today date
+const today = new Date().toString('M/d/yyyy')
+const combinedObject = {
+    user: combineUsers
+};
+
+combinedObject.merge_date = today;
+
+console.log(combinedObject);
